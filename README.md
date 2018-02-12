@@ -3,9 +3,9 @@ The BLDC-Tool is used to flash firmware and configuration files to a hardware co
 
 http://vedder.se/2015/01/vesc-open-source-esc/
 
-This repository contains scripts to build the BLDC-Tool on a NVIDIA Jetson TX development kit running L4T 28.1, or a desktop x86 Linux Ubuntu 14.04 machine. The x86 Ubuntu machine is typically used to flash the Jetson using JetPack.
+This repository contains scripts to build the BLDC-Tool on a NVIDIA Jetson TX development kit running L4T 28.1, and a script for building a desktop x86 Linux Ubuntu 14.04 version. The x86 Ubuntu machine is typically used to flash the Jetson using JetPack. The tool may be used by either platform to program the VESC. 
 
-<h2>Jetson TX Development Kit</h2>
+<h3>Jetson TX Development Kit</h3>
 Install the BLDC-Tool on the NVIDIA Jetson TX development Kit. The BLDC-Tool is for use with VESC compatible 4.12 hardware.
 
 To run the script:
@@ -40,9 +40,9 @@ The Configuration files are in the VESC-Configuration directory. There are two d
 
 The VESC_30k_erpm.xml configuration is for VESC 4.12 compatible hardware. For Enertion Boards VESC-X/FOCBOX hardware, there is FOCBOX_hw_30k_erpm.xml
 
-<em><b>Note:</em</b> Compiled versions of the firmware are also contained in the bldc-tool repository in the 'firmwares' directory.</em>
+<em><b>Note:</b> Compiled versions of the firmware are also contained in the bldc-tool repository in the 'firmwares' directory.</em>
 
-<h2>Desktop Linux Host</h2>
+<h3>Desktop Linux Host</h3>
 For Linux Ubuntu 14.04 running on an x86 machines (typically used to flash a Jetson using JetPack), there is an installation script which installs the prerequisites, downloads and builds the BLDC-Tool. This script:
 
 <blockquote>
@@ -62,7 +62,7 @@ The Configuration files are in the VESC-Configuration directory. There are two d
 
 The VESC_30k_erpm.xml configuration is for VESC 4.12 compatible hardware. For Enertion Boards VESC-X/FOCBOX hardware, there is FOCBOX_hw_30k_erpm.xml
 
-<em><b>Note:</em</b> Compiled versions of the firmware are also contained in the bldc-tool repository in the 'firmwares' directory.</em>
+<em><b>Note:</b> Compiled versions of the firmware are also contained in the bldc-tool repository in the 'firmwares' directory.</em>
 
 
 
