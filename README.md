@@ -20,7 +20,7 @@ The VESC is an open source hardware and software brushless motor controller.
 Running the install script builds the bldc-tool, a Qt Gui to interact with the BLDC controller.
 Before building the tool, the required prerequisites are installed. 
 
-<em><b>Note:</em</b> The version of libqt5serialport5-dev is 5.5. There is an issue which causes the Bldc-Tool to segment fault when the VESC reboots after being flashed using that version. The work around is to use version 5.6. The scripts builds qtserialport from source and installs it in order to address this issue.</em>
+<em><b>Note:</b> The version of libqt5serialport5-dev is 5.5. There is an issue which causes the Bldc-Tool to segment fault when the VESC reboots after being flashed using that version. The work around is to use version 5.6. The scripts builds qtserialport from source and installs it in order to address this issue.</em>
 
 Next the bldc-tool is compiled from source.
 
