@@ -9,9 +9,9 @@ This repository contains scripts to build the BLDC-Tool on a NVIDIA Jetson TX de
 Install the BLDC-Tool on the NVIDIA Jetson TX development Kit. The BLDC-Tool is for use with VESC compatible 4.12 hardware.
 
 To run the script:
-<blockquote>
-./installBLDCToolJetson.sh
-</blockquote>
+
+$ ./installBLDCToolJetson.sh
+
 
 These scripts will install the bldc-tool for Vedder Electronic Speed Controller (<b>VESC</b>) and compatible hardware, version 4.12. This type of hardware is sometimes referred to as BLDC controller. The VESC is used in the RACECAR/J project.
 
@@ -45,8 +45,8 @@ The VESC_30k_erpm.xml configuration is for VESC 4.12 compatible hardware. For En
 <h3>Desktop Linux Host</h3>
 For Linux Ubuntu 14.04 running on an x86 machines (typically used to flash a Jetson using JetPack), there is an installation script which installs the prerequisites, downloads and builds the BLDC-Tool. This script:
 
-<blockquote>
-./installBLDCToolHost.sh</blockquote>
+
+$ ./installBLDCToolHost.sh
 
 The last step in the script installs VESC firmware and VESC configuration files in the directory ~/vesc-firmware for use with the RACECAR/J configuration. The VESC firmware is located in:
 
